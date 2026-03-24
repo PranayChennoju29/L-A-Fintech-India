@@ -1,16 +1,16 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer"
+
 import {
   Users,
   Code,
 
-  Landmark,
-  Rocket,
-  FileText,
-  CheckCircle,
+
   Mail, Phone, MapPin, Linkedin, Twitter,
 } from "lucide-react";
 import UploadResume from "@/components/ResumeUpload";
+import Link from "next/link";
 
 
 
@@ -59,13 +59,21 @@ export default function Home() {
             </p>
 
             <div className="flex gap-4 mt-10">
-              <button className="flex items-center gap-2 bg-[#8F1FC9] text-white px-7 py-3 rounded-full hover:bg-[#7a1aad] transition">
-                Get Started →
-              </button>
 
-              <button className="px-7 py-3 rounded-full border border-gray-300 text-gray-700 hover:bg-gray-200 transition">
+              <Link
+                href="/carrers"
+                className="flex items-center gap-2 bg-[#8F1FC9] text-white px-7 py-3 rounded-full hover:bg-[#7a1aad] transition"
+              >
+                Get Started →
+              </Link>
+
+              <Link
+                href="#vision"
+                className="px-7 py-3 rounded-full border border-gray-300 text-gray-700 hover:bg-gray-200 transition"
+              >
                 Learn More
-              </button>
+              </Link>
+
             </div>
 
           </div>
@@ -133,7 +141,7 @@ export default function Home() {
 
         </div>
       </section>
-      <section id="services" className="relative py-24 overflow-hidden">
+      <section id="cta" className="relative py-24 overflow-hidden">
 
         {/* Background Image */}
         <Image
@@ -292,9 +300,12 @@ export default function Home() {
                 companies. Submit your profile today and let's find your perfect match.
               </p>
 
-              <button className="mt-6 bg-[#8F1FC9] text-white px-6 py-3 rounded-full hover:bg-[#7a1aad] transition">
+              <Link
+                href="/carrers"
+                className="mt-6 inline-block bg-[#8F1FC9] text-white px-6 py-3 rounded-full hover:bg-[#7a1aad] transition"
+              >
                 Explore Career Opportunities
-              </button>
+              </Link>
 
             </div>
 
@@ -418,84 +429,8 @@ export default function Home() {
       </section>
 
 
-      <footer className="bg-[#F5F7FA] border-t border-gray-300 pt-10 pb-8">
-        <div className="max-w-7xl mx-auto px-6">
+      <Footer />
 
-          {/* TOP GRID */}
-          <div className="grid md:grid-cols-4 gap-10">
-
-            {/* Logo + Text */}
-            <div>
-
-              <div className="flex items-center gap-3 text-[#8F1FC9] font-semibold text-lg">
-
-                <Image
-                  src="/LogoBg.png"
-                  alt="L & A Fintech India"
-                  width={32}
-                  height={32}
-                  className="object-contain"
-                />
-
-                L & A Fintech India
-              </div>
-
-              <p className="text-gray-600 text-sm mt-4 max-w-xs">
-                Established 2025. Leading the future of IT and Non-IT recruitment
-                with fintech-driven efficiency.
-              </p>
-
-            </div>
-
-            {/* Company */}
-            <div>
-              <h4 className="font-semibold text-gray-900 mb-4">Company</h4>
-
-              <div className="space-y-2 text-sm text-gray-600">
-                <p className="hover:text-[#8F1FC9] cursor-pointer">About Us</p>
-                <p className="hover:text-[#8F1FC9] cursor-pointer">Careers</p>
-                <p className="hover:text-[#8F1FC9] cursor-pointer">What We Do</p>
-              </div>
-            </div>
-
-            {/* Legal */}
-            <div>
-              <h4 className="font-semibold text-gray-900 mb-4">Legal</h4>
-
-              <div className="space-y-2 text-sm text-gray-600">
-                <p className="hover:text-[#8F1FC9] cursor-pointer">Privacy Policy</p>
-                <p className="hover:text-[#8F1FC9] cursor-pointer">Terms & Conditions</p>
-              </div>
-            </div>
-
-            {/* Connect */}
-            <div>
-              <h4 className="font-semibold text-gray-900 mb-4">Connect</h4>
-
-              <div className="flex items-center gap-4 text-gray-600">
-                <Linkedin className="hover:text-[#8F1FC9] cursor-pointer" size={18} />
-                <Twitter className="hover:text-[#8F1FC9] cursor-pointer" size={18} />
-                <Mail className="hover:text-[#8F1FC9] cursor-pointer" size={18} />
-              </div>
-            </div>
-
-          </div>
-
-          {/* Divider */}
-          <div className="border-t mt-12 pt-6 flex flex-col md:flex-row justify-between text-sm text-gray-500">
-
-            <p>
-              © 2026 L & A Fintech India. All rights reserved.
-            </p>
-
-            <p>
-              India • Singapore • Global
-            </p>
-
-          </div>
-
-        </div>
-      </footer>
 
 
     </main>
