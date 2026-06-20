@@ -116,7 +116,7 @@ export default function CareersSection() {
                             </div>
 
                             <h3 className="font-semibold text-gray-900">
-                                Why join L & A Fintech?
+                                Why join L&A Fintech?
                             </h3>
                         </div>
 
@@ -126,7 +126,7 @@ export default function CareersSection() {
                             <div>
                                 <p className="font-medium text-gray-900">Global Impact</p>
                                 <p className="text-gray-500 mt-1">
-                                    Work with clients from India, Singapore, and global fintech hubs.
+                                    Work with clients from India and global fintech hubs.
                                 </p>
                             </div>
 
@@ -220,7 +220,7 @@ export default function CareersSection() {
                     <div className="bg-white border rounded-xl p-4 text-sm text-gray-600">
                         ⭐⭐⭐⭐⭐
                         <p className="mt-2">
-                            "L & A Fintech helped me land a career path I never imagined."
+                            "L&A Fintech helped me land a career path I never imagined."
                         </p>
                         <p className="mt-2 font-medium text-gray-900">
                             — Siddharth K.

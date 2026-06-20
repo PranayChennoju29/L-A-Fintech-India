@@ -21,7 +21,7 @@ export default function CareerHero() {
 
                 {/* Tag */}
                 <span className="inline-block bg-[#F3E8FF] text-[#8F1FC9] text-xs px-4 py-1 rounded-full font-medium tracking-wide">
-                    Careers at L & A Fintech
+                    Careers at L&A Fintech
                 </span>
 
                 {/* Heading */}

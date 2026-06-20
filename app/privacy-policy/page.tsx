@@ -34,7 +34,7 @@ export default function PrivacyPolicy() {
                     </h2>
 
                     <p className="text-gray-600 mt-3 leading-relaxed">
-                        At L & A Fintech India ("we", "us", or "our"), we are committed to protecting your privacy.
+                        At L&A Fintech India ("we", "us", or "our"), we are committed to protecting your privacy.
                         This Privacy Policy explains how we collect, use, disclose, and safeguard your information
                         when you use our website and recruitment services.
                     </p>
@@ -135,7 +135,7 @@ export default function PrivacyPolicy() {
                         </h3>
 
                         <p className="text-gray-600 text-sm mt-2 max-w-md">
-                            Our Data Protection Officer is here to help you understand how L & A Fintech India handles your sensitive information.
+                            Our Data Protection Officer is here to help you understand how L&A Fintech India handles your sensitive information.
                         </p>
                     </div>
 
@@ -159,7 +159,7 @@ export default function PrivacyPolicy() {
 
                     {/* Copyright */}
                     <p>
-                        L & A Fintech India is a registered entity. © 2025 All Rights Reserved.
+                        L&A Fintech India is a registered entity. © 2025 All Rights Reserved.
                     </p>
 
                     {/* Links */}

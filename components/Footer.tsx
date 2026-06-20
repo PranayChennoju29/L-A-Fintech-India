@@ -15,12 +15,12 @@ export default function Footer() {
                         <Link href="/" className="flex items-center gap-3 text-[#8F1FC9] font-semibold text-lg">
                             <Image
                                 src="/LogoBg.png"
-                                alt="L & A Fintech India"
+                                alt="L&A Fintech India"
                                 width={32}
                                 height={32}
                                 className="object-contain"
                             />
-                            L & A Fintech India
+                            L&A Fintech India
                         </Link>
 
                         <p className="text-gray-600 text-sm mt-4 max-w-xs">
@@ -88,7 +88,7 @@ export default function Footer() {
                 <div className="border-t mt-12 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 gap-3">
 
                     <p>
-                        © 2025 L & A Fintech India. All rights reserved.
+                        © 2025 L&A Fintech India. All rights reserved.
                     </p>
 
                     {/* ✅ Added Legal Links */}

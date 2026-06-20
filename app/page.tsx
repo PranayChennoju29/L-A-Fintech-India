@@ -55,7 +55,7 @@ export default function Home() {
             <p className="text-gray-500 mt-6 max-w-lg">
               We bridge the gap between visionary companies and world-class
               talent. Leveraging fintech-driven efficiency, we specialize in
-              high-impact hiring across IT and Non-IT sectors globally.
+              high-impact hiring across IT and Non-IT sectors.
             </p>
 
             <div className="flex gap-4 mt-10">
@@ -107,23 +107,31 @@ export default function Home() {
       </section>
 
 
-      <section id="vision" className="bg-[#F6F7F9] py-24">
-        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-start">
+      <section
+        id="vision"
+        className="relative py-24 bg-cover bg-top bg-no-repeat overflow-hidden"
+        style={{
+          backgroundImage: "url('/10.jpg')",
+        }}
+      >
+        {/* White Overlay */}
+        <div className="absolute inset-0 bg-white/70"></div>
+
+        <div className="relative max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-start">
 
           {/* Left Title */}
           <div className="flex items-start gap-4">
             <div className="w-1 h-10 bg-[#8F1FC9] mt-2"></div>
 
-            <h2 className="text-3xl font-semibold text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-semibold text-gray-900">
               Our Vision
             </h2>
           </div>
 
           {/* Right Content */}
-          <div className="text-gray-600 space-y-6 leading-relaxed">
-
+          <div className="text-gray-700 space-y-6 leading-relaxed text-lg">
             <p>
-              Founded in 2025, L & A Fintech India was born from a simple realization:
+              Founded in 2025, L&A Fintech India was born from a simple realization:
               recruitment shouldn’t be a bottleneck to growth. In an era of rapid
               digital transformation, traditional hiring methods are no longer
               sufficient.
@@ -136,7 +144,6 @@ export default function Home() {
               and highly personalized recruitment experiences for startups and
               enterprises alike.
             </p>
-
           </div>
 
         </div>
@@ -278,10 +285,19 @@ export default function Home() {
         </div>
 
       </section>
-      <section id="careers" className="py-24">
-        <div className="max-w-6xl mx-auto px-6">
+      <section
+        id="careers"
+        className="relative py-24 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: "url('/8.jpg')",
+        }}
+      >
+        {/* White Overlay */}
+        <div className="absolute inset-0 bg-white/90"></div>
 
-          <div className="bg-gray-200 rounded-2xl p-10 md:p-14 flex flex-col md:flex-row items-center justify-between gap-10 border-2 border-gray-300">
+        <div className="relative max-w-6xl mx-auto px-6">
+
+          <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-10 md:p-14 flex flex-col md:flex-row items-center justify-between gap-10 border border-white/50 shadow-lg">
 
             {/* LEFT CONTENT */}
             <div className="max-w-lg">
@@ -316,12 +332,20 @@ export default function Home() {
 
         </div>
       </section>
-      <section id="contact" className="py-24 bg-[#F6F7F9]">
-        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-start">
+      <section
+        id="contact"
+        className="relative py-24 bg-cover bg-top bg-no-repeat"
+        style={{
+          backgroundImage: "url('/contact.jpg')",
+        }}
+      >
+        {/* White Overlay */}
+        <div className="absolute inset-0 bg-white/80"></div>
+
+        <div className="relative max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-start">
 
           {/* LEFT SIDE */}
           <div>
-
             <h2 className="text-3xl font-semibold text-gray-900">
               Let's Connect
             </h2>
@@ -335,7 +359,6 @@ export default function Home() {
 
               {/* Email */}
               <div className="flex items-start gap-4">
-
                 <div className="w-12 h-12 flex items-center justify-center bg-[#F3E8FF] text-[#8F1FC9] rounded-xl">
                   <Mail size={20} />
                 </div>
@@ -345,12 +368,10 @@ export default function Home() {
                   <p className="text-gray-600 text-sm">careers@fintechindia.com</p>
                   <p className="text-gray-600 text-sm">talent@fintechindia.com</p>
                 </div>
-
               </div>
 
               {/* Phone */}
               <div className="flex items-start gap-4">
-
                 <div className="w-12 h-12 flex items-center justify-center bg-green-100 text-green-600 rounded-xl">
                   <Phone size={20} />
                 </div>
@@ -360,30 +381,33 @@ export default function Home() {
                   <p className="text-gray-600 text-sm">+91 123 456 7890</p>
                   <p className="text-gray-600 text-sm">Mon - Fri, 9am - 6pm IST</p>
                 </div>
-
               </div>
 
               {/* Address */}
               <div className="flex items-start gap-4">
-
                 <div className="w-12 h-12 flex items-center justify-center bg-gray-200 text-gray-700 rounded-xl">
                   <MapPin size={20} />
                 </div>
 
                 <div>
                   <p className="font-medium text-gray-900">Visit Us</p>
-                  <p className="text-gray-600 text-sm">Cyber City, Phase II</p>
-                  <p className="text-gray-600 text-sm">Gurugram, Haryana, 122002</p>
+                  <p className="text-gray-600 text-sm">
+                    #7-7-336, 3rd Floor, Ujibase
+                  </p>
+                  <p className="text-gray-600 text-sm">
+                    Alankar Circle, Hanumakonda
+                  </p>
+                  <p className="text-gray-600 text-sm">
+                    Telangana - 506001
+                  </p>
                 </div>
-
               </div>
 
             </div>
-
           </div>
 
           {/* RIGHT FORM */}
-          <div className="bg-white rounded-2xl shadow-lg p-8 w-full max-w-lg">
+          <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl p-8 w-full max-w-lg border border-white/50">
 
             <form className="space-y-5">
 

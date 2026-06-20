@@ -12,14 +12,14 @@ export default function Navbar() {
                 <Link href="/" className="flex items-center gap-3">
                     <Image
                         src="/LogoBg.png"
-                        alt="L & A Fintech India"
-                        width={36}
-                        height={36}
+                        alt="L&A Fintech India"
+                        width={50}
+                        height={50}
                         className="object-contain"
                     />
 
                     <span className="text-[#8F1FC9] font-semibold text-lg">
-                        L & A Fintech India
+                        L&A Fintech India
                     </span>
                 </Link>
 

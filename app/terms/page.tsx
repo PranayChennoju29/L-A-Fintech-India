@@ -19,7 +19,7 @@ export default function TermsPage() {
                 </h1>
 
                 <p className="text-gray-500 mt-3 max-w-2xl">
-                    Welcome to L & A Fintech India. These terms govern your use of our
+                    Welcome to L&A Fintech India. These terms govern your use of our
                     recruitment platform and services. Please read them carefully.
                 </p>
 
@@ -38,7 +38,7 @@ export default function TermsPage() {
 
                     <p className="text-gray-600 mt-2 leading-relaxed">
                         These terms constitute a legally binding agreement between you and
-                        L & A Fintech India regarding your use of our website and services.
+                        L&A Fintech India regarding your use of our website and services.
                     </p>
                 </div>
 
@@ -49,7 +49,7 @@ export default function TermsPage() {
                     </h2>
 
                     <p className="text-gray-600 mt-3">
-                        L & A Fintech India provides recruitment services focused on IT and Non-IT roles.
+                        L&A Fintech India provides recruitment services focused on IT and Non-IT roles.
                     </p>
 
                     <ul className="mt-3 text-gray-600 space-y-2">
@@ -84,7 +84,7 @@ export default function TermsPage() {
                     </h2>
 
                     <p className="text-gray-600 mt-3 leading-relaxed">
-                        L & A Fintech India shall not be held liable for any indirect,
+                        L&A Fintech India shall not be held liable for any indirect,
                         incidental, or consequential damages arising from the use of our services.
                     </p>
 
@@ -121,7 +121,7 @@ export default function TermsPage() {
 
                 {/* Bottom Links */}
                 <div className="text-center text-sm text-gray-400 mt-10">
-                    <p>© 2025 L & A Fintech India</p>
+                    <p>© 2025 L&A Fintech India</p>
 
                     <div className="flex justify-center gap-4 mt-2">
                         <span className="hover:text-[#8F1FC9] cursor-pointer">Terms of Service</span>
